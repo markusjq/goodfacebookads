@@ -1,0 +1,92 @@
+[
+	{
+		  "id": "1",
+		  "name": "Survey Monkey",
+		  "ad": "img/surveymonkey.png",
+		  "logo": "img/logos/surveymonkey.jpg",
+		  "tags": ["giveaway", "newsfeed", "saas"],
+		  "rating": 2,
+		  "votes": 24
+		},
+
+		{
+		  "id": "2",
+		  "name": "GetResponse",
+		  "ad": "img/getresponse-ad.png",
+		  "logo": "img/logos/getresponse.png",
+		  "tags": ["newsfeed", "saas"],
+		  "rating": 4,
+		  "votes": 13,
+		  "good": "I like the uhh"
+		},
+
+		{
+		  "id": "3",
+		  "name": "Klientboost",
+		  "ad": "img/klientboost.png",
+		  "logo": "img/logos/klientboost.png",
+		  "tags": ["blog post", "retargeting"],
+		  "rating": 5,
+		  "votes": 2
+		},
+
+		{
+		  "id": "4",
+		  "name": "Blue Apron",
+		  "ad": "img/blueapron.png",
+		  "logo": "img/logos/blueapron.jpg",
+		  "tags": ["newsfeed", "ecommerce"],
+		  "rating": 5,
+		  "votes": 50
+		},
+
+		{
+		  "id": "5",
+		  "name": "Front",
+		  "ad": "img/front.png",
+		  "logo": "img/logos/front.png",
+		  "tags": ["saas", "newsfeed"],
+		  "rating": 5,
+		  "votes": 11
+		},
+
+		{
+		  "id": "6",
+		  "name": "99designs",
+		  "ad": "img/99designs.png",
+		  "logo": "img/logos/99designs.png",
+		  "tags": ["service", "newsfeed"],
+		  "rating": 5,
+		  "votes": 29
+		},
+
+		{
+		  "id": "7",
+		  "name": "Mailchimp",
+		  "ad": "img/mailchimp.png",
+		  "logo": "img/logos/mailchimp.png",
+		  "tags": ["saas", "blog post", "newsfeed"],
+		  "rating": 5,
+		  "votes": 29
+		},
+
+		{
+		  "id": "8",
+		  "name": "Referralcandy",
+		  "ad": "img/referralcandy.png",
+		  "logo": "img/logos/referralcandy.png",
+		  "tags": ["saas", "newsfeed"],
+		  "rating": 5,
+		  "votes": 29
+		},
+
+		{
+		  "id": "9",
+		  "name": "AdEspresso",
+		  "ad": "img/adespresso.png",
+		  "logo": "img/logos/adespresso.jpg",
+		  "tags": ["saas", "carousel", "newsfeed"],
+		  "rating": 5,
+		  "votes": 29
+		}				
+]

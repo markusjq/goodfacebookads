@@ -1,0 +1,57 @@
+<!-- MAIN INDEX VIEW -->
+	<div class="row" id="hero">
+		<div class="container">
+			<div class="home-hero col-xs-12">
+			<h2>Really Good Facebook Ads</h2>
+			<h3>Get inspired by 3,583+ ads.</h3>
+			<h4>Learn how some of the best companies structure their Facebook ads.</h4>
+			</div>
+
+			<div class="search-group col-xs-12 col-lg-6 col-lg-offset-3">
+				<div class="main-search">
+					<input type="text" id="big-search" placeholder="Retargeting, eCommerce, Nike, etc." ng-model="searchCards">
+				</div>
+
+				<div class="tag-group text-center">
+					<span ng-click="searchCards = 'ecommerce' " class="tag ecommerce">eCommerce</span>
+					<span ng-click="searchCards = 'retargeting' " class="tag retargeting">Retargeting</span>
+					<span ng-click="searchCards = 'cart drop' " class="tag cart drop">Cart Drop</span>
+					<span ng-click="searchCards = 'newsfeed' " class="tag newsfeed">Newsfeed</span>
+					<span ng-click="searchCards = 'saas' " class="tag saas">SaaS</span>
+					<span ng-click="searchCards = 'giveaway' " class="tag giveaway">Giveaway</span>
+					<span ng-click="searchCards = 'service' " class="tag service">Service</span>
+					<span ng-click="searchCards = 'carousel' " class="tag carousel">Carousel</span>
+				</div>
+		    </div>
+	    </div>
+	</div>
+
+
+<div class="row" id="mainapp" ng-app="mainApp" ng-controller="mainController">
+		<main class="main-content" role="main">
+			<div class="container panel panel-default" id="main-container">
+				<div class="card-repeat col-lg-4 col-sm-6 col-xs-12" ng-repeat="cards in cards | orderBy: '-id' | filter:searchCards">
+
+					<a href="#/ad/{{ cards.id }}">
+					<h4 class="card-title">{{ cards.name }}</h4>
+					<div class="card-wrapper">
+						<div class="cards">
+							<img class="card-logo" src="{{ cards.logo }}" />
+							<div class="rating">
+								<ul id="stars">
+            						<strong><span>Rating: </span></strong><li class="star-rating" ng-repeat="i in getNumber(cards.rating) track by $index"><span>☆</span></li><span>({{ cards.votes }} Reviews)</span>
+        						</ul>
+							</div>
+							<img class="card-img" src="{{ cards.ad }}" />
+						</div>
+					</div>
+					</a>
+					<div class="card-tags">
+						<span ng-repeat="tags in cards.tags" class="tag {{ tags }}">{{ tags }}</span>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+
+	

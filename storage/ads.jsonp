@@ -1,0 +1,62 @@
+[
+	{
+		  id: '1',
+		  name: 'Page Anchor',
+		  ad: 'img/placeholderad.png',
+		  logo: 'img/logos/pageanchor.jpg',
+		  tags: ['ecommerce'],
+		  rating: 2,
+		  votes: 24,
+		},
+
+		{
+		  id: '2',
+		  name: 'Nike',
+		  ad: 'img/placeholderad.png',
+		  logo: 'img/logos/nike.png',
+		  tags: ['retargeting', 'cart drop', 'ecommerce'],
+		  rating: 3,
+		  votes: 13,
+		},
+
+		{
+		  id: '3',
+		  name: 'Shopify',
+		  ad: '../img/placeholderad.png',
+		  logo: '../img/logos/shopify.png',
+		  tags: ['retargeting', 'ecommerce'],
+		  rating: 5,
+		  votes: 2
+		},
+
+		{
+		  id: '4',
+		  name: 'Ad Espresso',
+		  ad: '../img/placeholderad.png',
+		  logo: '../img/placeholder.png',
+		  tags: ['retargeting'],
+		  rating: 5,
+		  votes: 50
+		},
+
+		{
+		  id: '5',
+		  name: 'Instapage',
+		  ad: '../img/placeholderad.png',
+		  logo: '../img/logos/instapage.png',
+		  tags: ['retargeting', 'cart drop', 'ecommerce'],
+		  rating: 5,
+		  votes: 11
+		},
+
+		{
+		  id: '6',
+		  name: 'Red Bull',
+		  ad: '../img/placeholderad.png',
+		  logo: '../img/logos/redbull.png',
+		  tags: ['retargeting', 'cart drop', 'ecommerce'],
+		  rating: 5,
+		  votes: 29
+		}
+
+]
