@@ -23,10 +23,34 @@
 <div class="row" id="mainapp" ng-app="mainApp" ng-controller="ProfileCtrl">
 		<main class="main-content" role="main">
 			<div style="color:#fff" class="container panel panel-default" id="main-container">
-				<div class="profile-wrapper col-xs-12">
-					<div class="card-profile">
-					<img class="profile-logo" src="{{ profile.logo }}" />
-					<h4 class="profile-title">{{ profile.name }}</h4>
+				<div class="profile-wrapper">
+
+					<div class="card-profile col-xs-12">
+						<img class="profile-logo" src="{{ profile.logo }}" />
+						<h4 class="profile-title">{{ profile.name }}</h4>
+					</div>
+
+					<div class="ad-embed text-center">
+						<div class="rating">
+							<ul id="stars">
+            					<strong><span>Rating: </span></strong><li class="star-rating" ng-repeat="i in getNumber(profile.rating) track by $index"><span>☆</span></li><span>({{ profile.votes }} Reviews)</span>
+        					</ul>
+						</div>
+					<div class="fb-post" data-href="https://www.facebook.com/permalink.php?story_fbid=1646144282086111&amp;id=838768626157018" data-width="auto" data-show-text="true"><blockquote cite="https://www.facebook.com/permalink.php?story_fbid=1646144282086111&amp;id=838768626157018" class="fb-xfbml-parse-ignore"><p>I Finally cracked the code for cooking delicious healthy meals that get me in and out of the kitchen in Less than 10...</p>Posted by <a href="https://www.facebook.com/The-Warrior-Wife-838768626157018/">The Warrior Wife</a> on&nbsp;<a href="https://www.facebook.com/permalink.php?story_fbid=1646144282086111&amp;id=838768626157018">Friday, July 28, 2017</a></blockquote></div></div>
+
+					<div class="ad-critique">
+						<div class="card-main">
+							<ul class="critique">
+								<h4>Positive:</h4>
+								<li>{{ profile.1stGood }}</li>
+								<li>{{ profile.2ndGood }}</li>
+								<li>{{ profile.3rdGood }}</li>
+								<h4>Points to modify:</h4>
+								<li>{{ profile.1stBad }}</li>
+								<li>{{ profile.2ndBad }}</li>
+								
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
