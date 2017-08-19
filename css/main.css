@@ -393,3 +393,9 @@ a:active {
 	.ad-critique{
 		padding: 20px;
 	}
+
+	#hero{
+		padding: 50px 0;
+		background: url('../img/hero-bg.jpg') center center no-repeat;
+		background-size:cover;
+	}
