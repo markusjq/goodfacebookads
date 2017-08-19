@@ -338,6 +338,10 @@ a:active {
 	background-color: #2e8c45 !important;
 	}
 
+	.card-profile{
+	    padding: 10px 0 0 20px;
+	}
+
 	.profile-logo{
 		margin-left: 10px;
 		background-color: #FFFFFF;
@@ -381,6 +385,9 @@ a:active {
 		border-radius: 5px;
 		background:#f6f6f6;
 		color:#000;
+	    -webkit-box-shadow: 0px 0px 20px rgba(0,0,0,1);
+	    -moz-box-shadow: 0px 0px 20px rgba(0,0,0,1);
+	    box-shadow: 0px 0px 20px rgba(0,0,0,1);
 	}
 
 	.ad-critique{

@@ -1,6 +1,6 @@
 
 
-app.controller('mainController', ['$scope', '$http', function($scope, $http){ 
+app.controller('mainController', ['$scope', '$http', '$sce', function($scope, $http){ 
 
 	 // FETCHES AD CARD DATA
 	    $http.get('storage/ads.json').success(function(data) {
