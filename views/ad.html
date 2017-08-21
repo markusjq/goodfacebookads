@@ -36,7 +36,8 @@
             					<strong><span>Rating: </span></strong><li class="star-rating" ng-repeat="i in getNumber(profile.rating) track by $index"><span>☆</span></li><span>({{ profile.votes }} Reviews)</span>
         					</ul>
 						</div>
-					<div class="fb-post" data-href="https://www.facebook.com/permalink.php?story_fbid=1646144282086111&amp;id=838768626157018" data-width="auto" data-show-text="true"><blockquote cite="https://www.facebook.com/permalink.php?story_fbid=1646144282086111&amp;id=838768626157018" class="fb-xfbml-parse-ignore"><p>I Finally cracked the code for cooking delicious healthy meals that get me in and out of the kitchen in Less than 10...</p>Posted by <a href="https://www.facebook.com/The-Warrior-Wife-838768626157018/">The Warrior Wife</a> on&nbsp;<a href="https://www.facebook.com/permalink.php?story_fbid=1646144282086111&amp;id=838768626157018">Friday, July 28, 2017</a></blockquote></div></div>
+					<div class="fb-post" id="fb-ad" data-href="https://www.facebook.com/permalink.php?story_fbid=1646144282086111&amp;id=838768626157018" data-width="auto" data-show-text="true"><blockquote cite="https://www.facebook.com/permalink.php?story_fbid=1646144282086111&amp;id=838768626157018" class="fb-xfbml-parse-ignore"><p>I Finally cracked the code for cooking delicious healthy meals that get me in and out of the kitchen in Less than 10...</p>Posted by <a href="https://www.facebook.com/The-Warrior-Wife-838768626157018/">The Warrior Wife</a> on&nbsp;<a href="https://www.facebook.com/permalink.php?story_fbid=1646144282086111&amp;id=838768626157018">Friday, July 28, 2017</a></blockquote>
+					</div></div>
 					<div class="card-tags">
 						<span ng-repeat="tags in profile.tags" class="tag {{ tags }}">{{ tags }}</span>
 					</div>					
@@ -59,3 +60,12 @@
 			</div>
 		</main>
 	</div>
+
+	<script>return function (scope, iElement, iAttrs) {
+$scope.$on('$routeChangeSuccess', function(next, current) { 
+		   return function (scope, iElement, iAttrs) {
+        		if (FB) {
+            		FB.XFBML.parse();
+                }
+    	   };
+		});</script>
