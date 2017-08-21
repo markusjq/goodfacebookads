@@ -371,6 +371,7 @@ a:active {
 	.ad-embed{
 		max-width: 750px;
 		margin:auto;
+		padding: 0 10px;
 	}
 
 	.ad-embed iframe{
