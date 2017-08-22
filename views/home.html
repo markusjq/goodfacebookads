@@ -39,8 +39,8 @@
 							<img class="card-logo" src="{{ cards.logo }}" />
 							<div class="rating">
 								<ul id="stars">
-            						<strong><span>Rating: </span></strong><li class="star-rating" ng-repeat="i in getNumber(cards.rating) track by $index"><span>☆</span></li><span>({{ cards.votes }} Reviews)</span>
-        						</ul>
+            						<strong><span>Rating: </span></strong><li class="star-rating" ng-repeat="i in getNumber(cards.rating) track by $index"><span>☆</span></li><span>(Reviewed by </span><strong><span class="curator" ng-click="" style="color:#4444ad; cursor: pointer;">{{ cards.curator }}</span></strong><span>)</span>
+            					</ul>
 							</div>
 							<img class="card-img" src="{{ cards.ad }}" />
 						</div>
