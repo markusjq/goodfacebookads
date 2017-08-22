@@ -60,12 +60,3 @@
 			</div>
 		</main>
 	</div>
-
-	<script>return function (scope, iElement, iAttrs) {
-$scope.$on('$routeChangeSuccess', function(next, current) { 
-		   return function (scope, iElement, iAttrs) {
-        		if (FB) {
-            		FB.XFBML.parse();
-                }
-    	   };
-		});</script>
