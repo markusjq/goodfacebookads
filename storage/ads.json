@@ -1,6 +1,6 @@
 [
 	{
-		  "id": "1",
+		  "id": "11111",
 		  "name": "Survey Monkey",
 		  "ad": "img/surveymonkey.png",
 		  "logo": "img/logos/surveymonkey.jpg",
@@ -16,7 +16,7 @@
 		},
 
 		{
-		  "id": "2",
+		  "id": "11112",
 		  "name": "GetResponse",
 		  "ad": "img/getresponse-ad.png",
 		  "logo": "img/logos/getresponse.png",
@@ -33,7 +33,7 @@
 		},
 
 		{
-		  "id": "3",
+		  "id": "11113",
 		  "name": "Klientboost",
 		  "ad": "img/klientboost.png",
 		  "logo": "img/logos/klientboost.png",
@@ -49,7 +49,7 @@
 		},
 
 		{
-		  "id": "4",
+		  "id": "11114",
 		  "name": "Blue Apron",
 		  "ad": "img/blueapron.png",
 		  "logo": "img/logos/blueapron.jpg",
@@ -65,7 +65,7 @@
 		},
 
 		{
-		  "id": "5",
+		  "id": "11115",
 		  "name": "Front",
 		  "ad": "img/front.png",
 		  "logo": "img/logos/front.png",
@@ -77,11 +77,12 @@
 		  "3rdGood": "Lorem ipsum dolor imet Ozzcan yoo haha lol",
 		  "1stBad": "Lorem ipsum dolor imet Ozzcan yoo haha lol",
 		  "2ndBad": "Lorem ipsum dolor imet Ozzcan yoo haha lol",
-		  "3rdBad": "Lorem ipsum dolor imet Ozzcan yoo haha lol"
+		  "3rdBad": "Lorem ipsum dolor imet Ozzcan yoo haha lol",
+		  "adUrl": "https://www.facebook.com/frontapp/posts/925349197605097"
 		},
 
 		{
-		  "id": "6",
+		  "id": "11116",
 		  "name": "99designs",
 		  "ad": "img/99designs.png",
 		  "logo": "img/logos/99designs.png",
@@ -97,7 +98,7 @@
 		},
 
 		{
-		  "id": "7",
+		  "id": "11117",
 		  "name": "Mailchimp",
 		  "ad": "img/mailchimp.png",
 		  "logo": "img/logos/mailchimp.png",
@@ -113,7 +114,7 @@
 		},
 
 		{
-		  "id": "8",
+		  "id": "11118",
 		  "name": "Referralcandy",
 		  "ad": "img/referralcandy.png",
 		  "logo": "img/logos/referralcandy.png",
@@ -129,7 +130,7 @@
 		},
 
 		{
-		  "id": "9",
+		  "id": "11119",
 		  "name": "AdEspresso",
 		  "ad": "img/adespresso.png",
 		  "logo": "img/logos/adespresso.jpg",
@@ -143,5 +144,40 @@
 		  "2ndBad": "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized.",
 		  "3rdBad": "<li>Lorem ipsum dolor imet Ozzcan yoo haha lol</li>",
 		  "mainad": "<div class=\"fb-post\" data-href=\"https://www.facebook.com/permalink.php?story_fbid=1646144282086111&amp;id=838768626157018\" data-width=\"750\" data-show-text=\"true\"><blockquote cite=\"https://www.facebook.com/permalink.php?story_fbid=1646144282086111&amp;id=838768626157018\" class=\"fb-xfbml-parse-ignore\"><p>I Finally cracked the code for cooking delicious healthy meals that get me in and out of the kitchen in Less than 10...</p>Posted by <a href=\"https://www.facebook.com/The-Warrior-Wife-838768626157018/\">The Warrior Wife</a> on&nbsp;<a href=\"https://www.facebook.com/permalink.php?story_fbid=1646144282086111&amp;id=838768626157018\">Friday, July 28, 2017</a></blockquote></div>"
-		}				
+		},
+
+		{
+		  "id": "11121",
+		  "name": "Uber",
+		  "ad": "img/uber.png",
+		  "logo": "img/logos/uber.jpg",
+		  "tags": ["blog post", "newsfeed"],
+		  "rating": 5,
+		  "curator": "Markus",
+		  "1stGood": "Great combination of an inviting photo + caption.",
+		  "2ndGood": "Suits well as an ad to target potential customers. The blog post's topic is broad and suits anyone who has ever heard of Uber",
+		  "3rdGood": "Short text and clear CTA + Blog post and ad in native language.",
+		  "1stBad": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+		  "2ndBad": "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized.",
+		  "3rdBad": "Lorem ipsum dolor imet Ozzcan yoo haha lol",
+		  "adUrl": "https://www.facebook.com/permalink.php?story_fbid=1646144282086111&id=838768626157018"
+		},
+
+		{
+		  "id": "11122",
+		  "name": "Meller",
+		  "ad": "img/meller.png",
+		  "logo": "img/logos/meller.jpg",
+		  "tags": ["ecommerce", "retargeting", "cart drop"],
+		  "rating": 5,
+		  "curator": "Markus",
+		  "1stGood": "Great combination of an inviting photo + caption.",
+		  "2ndGood": "Suits well as an ad to target potential customers. The blog post's topic is broad and suits anyone who has ever heard of Uber",
+		  "3rdGood": "Short text and clear CTA + Blog post and ad in native language.",
+		  "1stBad": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+		  "2ndBad": "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized.",
+		  "3rdBad": "Lorem ipsum dolor imet Ozzcan yoo haha lol",
+		  "adUrl": "https://www.facebook.com/1415151682063242/posts/1043711692399013/"	
+		}
+
 ]

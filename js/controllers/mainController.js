@@ -14,7 +14,7 @@ app.controller('mainController', ['$scope', '$http', '$sce', '$routeParams', '$r
 
 	// reloads facebook iframe to display ads
 	$scope.$on('$routeChangeSuccess', function() {
-    	setTimeout(FB.XFBML.parse, 10) 
+    	setTimeout(FB.XFBML.parse, 100) 
 	});
 
 
