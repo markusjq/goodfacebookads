@@ -1,5 +1,5 @@
 
-var app = angular.module('mainApp', ['ngRoute']);   
+var app = angular.module('mainApp', ['ngRoute', 'fbEmbed']);   
 
     app.config(function($routeProvider) {
         $routeProvider
