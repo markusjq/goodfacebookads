@@ -16,14 +16,6 @@
             					<strong><span>Rating: </span></strong><li class="star-rating" ng-repeat="i in getNumber(profile.rating) track by $index"><span>☆</span></li><span>(Reviewed by </span><a href="#">{{ profile.curator }}</a><span>)</span>
         					</ul>
 						</div>
-						<script>(function(d, s, id) {
-						    var js, fjs = d.getElementsByTagName(s)[0];
-						    if (d.getElementById(id)) return;
-						    js = d.createElement(s); js.id = id;
-						    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
-						    fjs.parentNode.insertBefore(js, fjs);
-						  }(document, 'script', 'facebook-jssdk'));
-						  </script>
 						<figure class="ad-screenshot">
 							<div class="fb-post" id="fb-ad" data-href="{{ profile.adUrl }}" data-width="600" data-show-text="true">
 							</div>

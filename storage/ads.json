@@ -143,7 +143,7 @@
 		  "1stBad": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
 		  "2ndBad": "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized.",
 		  "3rdBad": "<li>Lorem ipsum dolor imet Ozzcan yoo haha lol</li>",
-		  "mainad": "<div class=\"fb-post\" data-href=\"https://www.facebook.com/permalink.php?story_fbid=1646144282086111&amp;id=838768626157018\" data-width=\"750\" data-show-text=\"true\"><blockquote cite=\"https://www.facebook.com/permalink.php?story_fbid=1646144282086111&amp;id=838768626157018\" class=\"fb-xfbml-parse-ignore\"><p>I Finally cracked the code for cooking delicious healthy meals that get me in and out of the kitchen in Less than 10...</p>Posted by <a href=\"https://www.facebook.com/The-Warrior-Wife-838768626157018/\">The Warrior Wife</a> on&nbsp;<a href=\"https://www.facebook.com/permalink.php?story_fbid=1646144282086111&amp;id=838768626157018\">Friday, July 28, 2017</a></blockquote></div>"
+		  "adUrl": "https://www.facebook.com/latermedia/posts/530947203781805"
 		},
 
 		{
@@ -168,7 +168,7 @@
 		  "name": "Meller",
 		  "ad": "img/meller.png",
 		  "logo": "img/logos/meller.jpg",
-		  "tags": ["ecommerce", "retargeting", "cart drop"],
+		  "tags": ["ecommerce", "carousel", "cart drop"],
 		  "rating": 5,
 		  "curator": "Markus",
 		  "1stGood": "Great combination of an inviting photo + caption.",
@@ -178,6 +178,22 @@
 		  "2ndBad": "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized.",
 		  "3rdBad": "Lorem ipsum dolor imet Ozzcan yoo haha lol",
 		  "adUrl": "https://www.facebook.com/1415151682063242/posts/1043711692399013/"	
+		},
+
+		{
+		  "id": "11123",
+		  "name": "LINJER",
+		  "ad": "img/linjer.png",
+		  "logo": "img/logos/linjer.jpg",
+		  "tags": ["retargeting", "blog post", "ecommerce"],
+		  "rating": 5,
+		  "curator": "Markus",
+		  "1stGood": "Minimalistic caption to compliment the brand's core values.",
+		  "2ndGood": "The blog post serves as a great way to spark new interest from potential customers who have shown signs of interest without yet purchasing.",
+		  "3rdGood": "Using Business Insider, which objectively is a well-known brand, they can increase the potential customers trust in their own company.",
+		  "1stBad": "One could debate that the ad is dull and not captivating enough.",
+		  "2ndBad": "The previous statement would be even more true if the ad is served to an audience who has not yet engaged with the brand in any way.",
+		  "adUrl": "https://www.facebook.com/LinjerCo/posts/1446052398787671"
 		}
 
 ]

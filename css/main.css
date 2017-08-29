@@ -207,7 +207,6 @@
     line-height: 40px;
     border-radius: 20px;
     background-color: #FAFAFA;
-    border: 1px solid #AF3F3E;
     outline: none;
     color: #4a4a4a;
     font-size: 1rem;
@@ -415,7 +414,7 @@ a:active {
 		margin-top: 15px;
 	    margin-left: -15px;
 	    padding: 18px 50px;
-	    border-radius: 15px;
+	    border-radius: 50px;
 	    border: none;
 	    text-transform: uppercase;
 	    font-size: 20px;
@@ -434,5 +433,5 @@ a:active {
 
 	.btn-profile-back::before{
 	    content: "⟵";
-	    margin: 0 10px 0 -28px;
+	    margin: 0 10px 0 -15px;
 	}
